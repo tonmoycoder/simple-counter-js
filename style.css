@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap');
+
+.container-customM {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    background: #000;
+}
+
+.container-custom {
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    padding: 120px;
+    box-shadow: 
+    0 0 0 10px #ee6352,
+    0 0 0 20px #d45379,
+    0 0 0 30px #a4558f,
+    0 0 0 40px #6d588e,
+    0 0 0 50px #405378;
+    display: inline-block;
+    border-radius:30% 10%/ 25% ;
+    -webkit-border-radius:30% 10%/ 25% ;
+    -moz-border-radius:30% 10%/ 25% ;
+    -ms-border-radius:30% 10%/ 25% ;
+    -o-border-radius:30% 10%/ 25% ;
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+    margin-bottom: 18px;
+}
+#decrease-btn{
+    font-family: 'Merriweather', serif;
+    padding: 20px 30px;
+    border-radius: 14px;
+    margin-right: 10px;
+    background-color: #c9502c;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+#increase-btn{
+    border-radius: 14px;
+    padding: 20px 30px;
+    margin-left: 14px;
+    background-color: #4a0b92;
+    -webkit-border-radius: 1;
+    -moz-border-radius: 1;
+    -ms-border-radius: 1;
+    -o-border-radius: 1;
+    font-family: 'Merriweather', serif;
+}
